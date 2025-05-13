@@ -1,0 +1,10 @@
+name: Super - Linter
+
+on:
+  push
+jobs:
+  test:
+    steps:
+      - name: 22f3001454@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+      
