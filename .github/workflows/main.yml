@@ -1,0 +1,14 @@
+name: Test
+
+on:
+  push
+jobs:
+  collect-iss-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 22f3001454@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+      
